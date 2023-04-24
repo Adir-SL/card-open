@@ -26,9 +26,12 @@ a:active{
 }
 
 p{
-    background-color: pink;
+    background-color: #ffdce2;
     padding: 32px;
     border-radius: 8px;
+    text-transform: uppercase;
+    color: hotpink;
+    font-family: sans-serif;
 }
 iframe{
     height: 200px;

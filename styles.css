@@ -1,14 +1,22 @@
 .flexDiv{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    background-color: pink;
 }
 button{
     width: fit-content;
     padding: 8px 32px;
     border: none;
     outline: none;
-    background-color: rgb(67, 0, 139);
+    background-color: #264ad8;
     color: white;
     border-radius: 8px;
     cursor: pointer;
+}
+button:hover{
+    background-color: #1836af;
+}
+button:active{
+    background-color: #152f9b;
 }

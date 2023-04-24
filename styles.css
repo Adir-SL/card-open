@@ -28,6 +28,7 @@ a:active{
 p{
     background-color: pink;
     padding: 32px;
+    border-radius: 8px;
 }
 iframe{
     height: 200px;

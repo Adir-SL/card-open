@@ -4,6 +4,7 @@
     width: 100%;
     align-items: center;
     padding-top: 32px;
+    gap: 24px;
 }
 a{
     width: fit-content;
@@ -26,4 +27,10 @@ a:active{
 
 p{
     background-color: pink;
+    padding: 32px;
+}
+iframe{
+    height: 200px;
+    border: 1px solid lightgray;
+    border-radius: 8px;
 }

@@ -23,3 +23,7 @@ a:hover{
 a:active{
     background-color: #152f9b;
 }
+
+p{
+    background-color: pink;
+}

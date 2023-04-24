@@ -1,10 +1,9 @@
-var Anchors = document.getElementsByTagName("a");
+// document.getElementById("myBtn").addEventListener("click", displayDate);
 
-for (var i = 0; i < Anchors.length ; i++) {
-    Anchors[i].addEventListener("click", 
-        function (event) {
-            // event.preventDefault();
-            window.history.pushState("","", Anchors[i].href);
-        }, 
-        false);
+var x = document.querySelectorAll("a");
+var i;
+for (i = 0; i < x.length; i++) {
+    x[i].addEventListener("click", function(){
+        alert(x[i].href);
+    });
 }
